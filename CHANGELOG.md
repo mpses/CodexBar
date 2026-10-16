@@ -34,6 +34,7 @@
 - Widgets: include optional provider details in snapshot JSON so Claude Cloud credits retain their remaining balance, grant total, and expiry without changing quota rows (#4546). Thanks @djbclark!
 - Plugins: show quota gauges on user-plugin tabs and allow enabled plugins in the Overview provider picker (#4471). Thanks @soimy!
 - Settings: manage an opt-in HTTP usage server with local token storage, VPN/Tailscale binding controls, and automatic start/stop with the Mac app (#4430). Thanks @gmkbenjamin!
+- Menu bar: add Spend layout items and conditional rules for providers that report a spend budget, such as Claude Enterprise (#4530). Thanks @benjschiller!
 
 ## 0.76.0 — 2026-10-15
 
