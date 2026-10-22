@@ -411,8 +411,7 @@ public enum ClaudeOAuthCredentialsStore {
                     cacheTemporarilyUnavailable = true
                     lastError = ClaudeOAuthCredentialsError.readFailed(
                         "CodexBar's Claude OAuth cache is temporarily unavailable in macOS Keychain. " +
-                            "Check that the login keychain is unlocked in Keychain Access, then retry Refresh. " +
-                            "If other apps also cannot access credentials, check the shared login keychain.")
+                            "Check that the login keychain is unlocked in Keychain Access, then retry Refresh.")
                 case .missing:
                     break
                 }
